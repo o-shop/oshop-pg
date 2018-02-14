@@ -6,7 +6,7 @@ use Oshop\OshopPg\Config;
 
 class OshopPg
 {
-  public function charge($params)
+  public static function charge($params)
   {
     $payloads = array(
         'payment_type' => 'bank_transfer'
